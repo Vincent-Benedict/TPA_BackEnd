@@ -20,3 +20,12 @@ func GetGameItemById(p graphql.ResolveParams) (i interface{}, e error){
 
 	return gameItem, nil
 }
+
+func GetGameItemOffsetLimit(p graphql.ResolveParams) (i interface{}, e error){
+	limit:= p.Args["limit"].(int)
+	offset:= p.Args["offset"].(int)
+
+	gameItem, _ := models.GetGameItemOffsetLimit(offset, limit)
+
+	return gameItem, nil
+}

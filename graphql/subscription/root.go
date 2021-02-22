@@ -29,6 +29,16 @@ func GetRoot() *graphql.Object{
 				},
 				Resolve: res.GetLastChat,
 			},
+
+			"getlastmarketactivity":&graphql.Field{
+				Type: typ.GetMarketRecentActivityTypeType(),
+				Args: graphql.FieldConfigArgument{
+					"itemid": &graphql.ArgumentConfig{
+						Type: graphql.Int,
+					},
+				},
+				Resolve: res.GetLastMarketActivity,
+			},
 		},
 
 	})

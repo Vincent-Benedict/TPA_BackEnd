@@ -70,6 +70,18 @@ func InsertGameToWishlist(jwt string, gameId int) (bool, error){
 	return true, err
 }
 
+func DeleteGameFromWishlist(gameId int) (bool, error){
+	db, err := database.Connect()
+	if err != nil {
+		panic(err)
+	}
+	defer db.Close()
+
+	db.Where("game_id = ?", gameId).Delete(WishlistGame{})
+
+	return true, err
+}
+
 func IsAddedGameToWishlist(jwt string, gameId int) (bool, error){
 	db, err := database.Connect()
 	if err != nil {

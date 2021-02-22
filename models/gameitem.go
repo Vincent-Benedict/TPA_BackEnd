@@ -42,7 +42,7 @@ func SeedGameItem(){
 		ItemName:        "2020 RMR Legends",
 		ItemTransaction: 156,
 		ItemPrice:       300000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsQEl9Jg9SpIW1KgRr7OHFY28SvoyJl4iKm_vxPbzUhHgfuZEg2eyUpd2s0Qbsqhc4ZG33cI6VIFA5YgvS-wLrlb291JbtvJjMymwj5HcDj7YBnA/62fx62f",
+		ItemImage:       "item1.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -53,7 +53,7 @@ func SeedGameItem(){
 		ItemName:        "2020 RMR Challengers",
 		ItemTransaction: 172,
 		ItemPrice:       300000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsQEl9Jg9SpIW1KgRr7OHFY28SvoyJl4iKm_vxPbzUhHgfuZEg2eyUpd2s0Qbsqhc4ZG33cI6VIFA5YgvS-wLrlb291JbtvJjMymwj5HcDj7YBnA/62fx62f",
+		ItemImage:       "item2.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -64,7 +64,7 @@ func SeedGameItem(){
 		ItemName:        "2020 RMR Contenders",
 		ItemTransaction: 300,
 		ItemPrice:       200000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsQEl9Jg9SpIW1KgRr7OHFY28SvoyJl4iKm_vxPbzUhHgfuZEg2eyUpd2s0Qbsqhc4ZG33cI6VIFA5YgvS-wLrlb291JbtvJjMymwj5HcDj7YBnA/62fx62f",
+		ItemImage:       "item3.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -75,7 +75,7 @@ func SeedGameItem(){
 		ItemName:        "Operation Broken Fang Case",
 		ItemTransaction: 35,
 		ItemPrice:       100000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsQEl9Jg9SpIW1KgRr7OHFY28SvoyJl4iKm_vxPbzUhHgfuZEg2eyUpd2s0Qbsqhc4ZG33cI6VIFA5YgvS-wLrlb291JbtvJjMymwj5HcDj7YBnA/62fx62f",
+		ItemImage:       "item4.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -86,7 +86,7 @@ func SeedGameItem(){
 		ItemName:        "Sticker | Natus Vincere | 2020 RMR",
 		ItemTransaction: 16,
 		ItemPrice:       600000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsQEl9Jg9SpIW1KgRr7OHFY28SvoyJl4iKm_vxPbzUhHgfuZEg2eyUpd2s0Qbsqhc4ZG33cI6VIFA5YgvS-wLrlb291JbtvJjMymwj5HcDj7YBnA/62fx62f",
+		ItemImage:       "item5.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -97,7 +97,7 @@ func SeedGameItem(){
 		ItemName:        "Glove Case",
 		ItemTransaction: 456,
 		ItemPrice:       500000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/62fx62f",
+		ItemImage:       "item6.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -108,7 +108,7 @@ func SeedGameItem(){
 		ItemName:        "Sticker | Natus Vincere (Holo) | 2020 RMR",
 		ItemTransaction: 126,
 		ItemPrice:       400000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/62fx62f",
+		ItemImage:       "item7.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -119,7 +119,7 @@ func SeedGameItem(){
 		ItemName:        "Fracture Case",
 		ItemTransaction: 154,
 		ItemPrice:       100000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/62fx62f",
+		ItemImage:       "item8.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -130,7 +130,7 @@ func SeedGameItem(){
 		ItemName:        "Sticker | Natus Vincere (Gold) | 2020 RMR",
 		ItemTransaction: 112,
 		ItemPrice:       200000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/62fx62f",
+		ItemImage:       "item9.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -141,7 +141,7 @@ func SeedGameItem(){
 		ItemName:        "Clutch Case",
 		ItemTransaction: 54,
 		ItemPrice:       700000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFY1naTMdzwTtNrukteIkqT2MO_Uwz5Q6cYhibyXo4rw2ALsrkRoYjuncNCLMlhpEV4XDTk/62fx62f",
+		ItemImage:       "item10.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -154,7 +154,7 @@ func SeedGameItem(){
 		ItemName:        "UMP-45 | Gold Bismuth",
 		ItemTransaction: 125,
 		ItemPrice:       400000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NwOx3QNmChCIzb02ClFcOt4PdmAyQj6pufQRHXxMGGRfyeBSl1rSOFZMjyMrDfz5unGQTjOSe94QA5WKaEN8zFAP9fTf0UrhthJr2CqqE1wHxEtL5QWIFjpnyVFM-8nnnYWdcpamiD3IpeLhQ1nYEVqUrrjA-mWZ9Wkwyg6HUQwCeYXZha0sNOx/62fx62f",
+		ItemImage:       "item11.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -165,7 +165,7 @@ func SeedGameItem(){
 		ItemName:        "Sealed Graffiti | Rage Mode (Bazooka Pink)",
 		ItemTransaction: 35,
 		ItemPrice:       400000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NwOx3QNmChCIzb02ClFcOt4PdmAyQj6pufQRHXxMGGRfyeBSl1rSOFZMjyMrDfz5unGQTjOSe94QA5WKaEN8zFAP9fTf0UrhthJr2CqqE1wHxEtL5QWIFjpnyVFM-8nnnYWdcpamiD3IpeLhQ1nYEVqUrrjA-mWZ9Wkwyg6HUQwCeYXZha0sNOx/62fx62f",
+		ItemImage:       "item12.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -176,7 +176,7 @@ func SeedGameItem(){
 		ItemName:        "FAMAS | Crypsis",
 		ItemTransaction: 1336,
 		ItemPrice:       500000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NwOx3QNmChCIzb02ClFcOt4PdmAyQj6pufQRHXxMGGRfyeBSl1rSOFZMjyMrDfz5unGQTjOSe94QA5WKaEN8zFAP9fTf0UrhthJr2CqqE1wHxEtL5QWIFjpnyVFM-8nnnYWdcpamiD3IpeLhQ1nYEVqUrrjA-mWZ9Wkwyg6HUQwCeYXZha0sNOx/62fx62f",
+		ItemImage:       "item13.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -187,7 +187,7 @@ func SeedGameItem(){
 		ItemName:        "Bewitched (Foil)",
 		ItemTransaction: 256,
 		ItemPrice:       700000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NwOx3QNmChCIzb02ClFcOt4PdmAyQj6pufQRHXxMGGRfyeBSl1rSOFZMjyMrDfz5unGQTjOSe94QA5WKaEN8zFAP9fTf0UrhthJr2CqqE1wHxEtL5QWIFjpnyVFM-8nnnYWdcpamiD3IpeLhQ1nYEVqUrrjA-mWZ9Wkwyg6HUQwCeYXZha0sNOx/62fx62f",
+		ItemImage:       "item14.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -198,7 +198,7 @@ func SeedGameItem(){
 		ItemName:        "RAVEN SHOTGUN | Cloaker Gold",
 		ItemTransaction: 65,
 		ItemPrice:       200000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NwOx3QNmChCIzb02ClFcOt4PdmAyQj6pufQRHXxMGGRfyeBSl1rSOFZMjyMrDfz5unGQTjOSe94QA5WKaEN8zFAP9fTf0UrhthJr2CqqE1wHxEtL5QWIFjpnyVFM-8nnnYWdcpamiD3IpeLhQ1nYEVqUrrjA-mWZ9Wkwyg6HUQwCeYXZha0sNOx/62fx62f",
+		ItemImage:       "item15.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -209,7 +209,7 @@ func SeedGameItem(){
 		ItemName:        "The Steam Awards - 2020 Trading Card",
 		ItemTransaction: 556,
 		ItemPrice:       100000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NgPzXIJmD4QPivs0XEwSOp0PdiAyQj6pufQHievbWORdiWLGg9uRedXM2GMqjCj4rmWSz_IR-p-QA1RfqZX8mIdadfJYUUrhthJr2CqqE1wHxEtL5UUIFnjm3EVabt3mHEXIZ9bzST2dMfZ015nOhA4XL_vVu2XPtTzxCc6HUQwCeYXZviBbfYz/62fx62f",
+		ItemImage:       "item16.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -220,7 +220,7 @@ func SeedGameItem(){
 		ItemName:        "MAG-7 | Rust Coat",
 		ItemTransaction: 75,
 		ItemPrice:       900000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NgPzXIJmD4QPivs0XEwSOp0PdiAyQj6pufQHievbWORdiWLGg9uRedXM2GMqjCj4rmWSz_IR-p-QA1RfqZX8mIdadfJYUUrhthJr2CqqE1wHxEtL5UUIFnjm3EVabt3mHEXIZ9bzST2dMfZ015nOhA4XL_vVu2XPtTzxCc6HUQwCeYXZviBbfYz/62fx62f",
+		ItemImage:       "item17.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -231,7 +231,7 @@ func SeedGameItem(){
 		ItemName:        "Outstanding Visual Style",
 		ItemTransaction: 77,
 		ItemPrice:       100000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NgPzXIJmD4QPivs0XEwSOp0PdiAyQj6pufQHievbWORdiWLGg9uRedXM2GMqjCj4rmWSz_IR-p-QA1RfqZX8mIdadfJYUUrhthJr2CqqE1wHxEtL5UUIFnjm3EVabt3mHEXIZ9bzST2dMfZ015nOhA4XL_vVu2XPtTzxCc6HUQwCeYXZviBbfYz/62fx62f",
+		ItemImage:       "item18.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -242,7 +242,7 @@ func SeedGameItem(){
 		ItemName:        "Sticker | Stone Scales",
 		ItemTransaction: 34,
 		ItemPrice:       150000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NgPzXIJmD4QPivs0XEwSOp0PdiAyQj6pufQHievbWORdiWLGg9uRedXM2GMqjCj4rmWSz_IR-p-QA1RfqZX8mIdadfJYUUrhthJr2CqqE1wHxEtL5UUIFnjm3EVabt3mHEXIZ9bzST2dMfZ015nOhA4XL_vVu2XPtTzxCc6HUQwCeYXZviBbfYz/62fx62f",
+		ItemImage:       "item19.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -253,7 +253,174 @@ func SeedGameItem(){
 		ItemName:        "Stone Gold Water",
 		ItemTransaction: 21,
 		ItemPrice:       200000,
-		ItemImage:       "https://community.akamai.steamstatic.com/economy/image/IzMF03bk9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdA3g5gMEPvUZZEfSMJ6dESN8p_2SVTY7V2NgPzXIJmD4QPivs0XEwSOp0PdiAyQj6pufQHievbWORdiWLGg9uRedXM2GMqjCj4rmWSz_IR-p-QA1RfqZX8mIdadfJYUUrhthJr2CqqE1wHxEtL5UUIFnjm3EVabt3mHEXIZ9bzST2dMfZ015nOhA4XL_vVu2XPtTzxCc6HUQwCeYXZviBbfYz/62fx62f",
+		ItemImage:       "item20.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	// 20 ITEM
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Sinovac",
+		ItemTransaction: 777,
+		ItemPrice:       770000,
+		ItemImage:       "item21.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Sticker | Natus Vincere (Holo) | 2010 RMR",
+		ItemTransaction: 888,
+		ItemPrice:       800000,
+		ItemImage:       "item22.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Fracture Case 2018",
+		ItemTransaction: 133,
+		ItemPrice:       150000,
+		ItemImage:       "item23.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Sticker | Natus Vincere (Gold) | 2030 RMR",
+		ItemTransaction: 323,
+		ItemPrice:       200000,
+		ItemImage:       "item24.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Clutch Case 2026",
+		ItemTransaction: 102,
+		ItemPrice:       434,
+		ItemImage:       "item25.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "UMP-45 | Gold Bismuth 2077",
+		ItemTransaction: 1252,
+		ItemPrice:       200000,
+		ItemImage:       "item26.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          2,
+		ItemName:        "Sealed Graffiti | Rage Mode (Bazooka Pink) 3100",
+		ItemTransaction: 352,
+		ItemPrice:       200000,
+		ItemImage:       "item27.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          7,
+		ItemName:        "FAMAS | Crypsis 400",
+		ItemTransaction: 1326,
+		ItemPrice:       400000,
+		ItemImage:       "item28.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          7,
+		ItemName:        "Bewitched (Foil) 1000",
+		ItemTransaction: 434,
+		ItemPrice:       800000,
+		ItemImage:       "item29.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          8,
+		ItemName:        "RAVEN SHOTGUN | Cloaker Gold 2",
+		ItemTransaction: 65,
+		ItemPrice:       300000,
+		ItemImage:       "item30.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          8,
+		ItemName:        "The Steam Awards - 2020 Trading Card ",
+		ItemTransaction: 321,
+		ItemPrice:       500000,
+		ItemImage:       "item31.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          8,
+		ItemName:        "MAG-7 | Rust Coat 10000",
+		ItemTransaction: 240,
+		ItemPrice:       600000,
+		ItemImage:       "item32.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          8,
+		ItemName:        "Outstanding Visual Style 6000",
+		ItemTransaction: 77,
+		ItemPrice:       100000,
+		ItemImage:       "item33.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          8,
+		ItemName:        "Sticker Stone Scale 20s",
+		ItemTransaction: 75,
+		ItemPrice:       200000,
+		ItemImage:       "item34.png",
+		CreatedAt:       time.Time{},
+		UpdatedAt:       time.Time{},
+		DeletedAt:       nil,
+	})
+
+	db.Create(&GameItem{
+		GameId:          9,
+		ItemName:        "Stone Gold Water 74",
+		ItemTransaction: 40,
+		ItemPrice:       800000,
+		ItemImage:       "item35.png",
 		CreatedAt:       time.Time{},
 		UpdatedAt:       time.Time{},
 		DeletedAt:       nil,
@@ -270,6 +437,19 @@ func GetAllGameItem()([]GameItem, error){
 
 	var gameItem []GameItem
 	db.Order("item_transaction desc").Find(&gameItem)
+
+	return gameItem, nil
+}
+
+func GetGameItemOffsetLimit(offset int, limit int)([]GameItem, error){
+	db, err := database.Connect()
+	if err != nil {
+		panic(err)
+	}
+	defer db.Close()
+
+	var gameItem []GameItem
+	db.Order("item_transaction desc").Limit(limit).Offset(offset).Find(&gameItem)
 
 	return gameItem, nil
 }

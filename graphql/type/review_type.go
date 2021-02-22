@@ -31,6 +31,10 @@ func GetReviewType() *graphql.Object{
 				"reviewdownvoted": &graphql.Field{
 					Type: graphql.Int,
 				},
+				"reviewsentiment": &graphql.Field{
+					Type: graphql.String,
+				},
+
 			},
 		})
 	}

@@ -14,3 +14,15 @@ func GetCommentByUserId(p graphql.ResolveParams)(i interface{}, e error){
 	return comments, nil
 }
 
+
+func InsertComment(p graphql.ResolveParams)(i interface{}, e error){
+
+	token := p.Args["token"].(string)
+	friendid := p.Args["friendid"].(int)
+	commentdesc := p.Args["commentdesc"].(string)
+
+	comments, _ := models.InsertComment(token, friendid, commentdesc)
+
+	return comments, nil
+}
+

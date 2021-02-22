@@ -53,6 +53,9 @@ func GetGameType() *graphql.Object{
 				"inappropriate": &graphql.Field{
 					Type: graphql.String,
 				},
+				"gameplayhours": &graphql.Field{
+					Type: graphql.Int,
+				},
 				"review": &graphql.Field{
 					Type: graphql.NewList(GetReviewType()),
 					Resolve: func(params graphql.ResolveParams) (interface{}, error) {
@@ -62,6 +65,19 @@ func GetGameType() *graphql.Object{
 
 						var review []models.Review
 						db.Where("game_id = ?", gameP.ID).Find(&review)
+
+						return review, nil
+					},
+				},
+				"reviewpastweek": &graphql.Field{
+					Type: graphql.NewList(GetReviewType()),
+					Resolve: func(params graphql.ResolveParams) (interface{}, error) {
+						db, _:= database.Connect()
+						defer db.Close()
+						gameP := params.Source.(models.Game)
+
+						var review []models.Review
+						db.Where("game_id = ? and DATE_PART('day', NOW())-DATE_PART('day', created_at) <= 7 and review_sentiment = 'positive'", gameP.ID).Find(&review)
 
 						return review, nil
 					},

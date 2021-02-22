@@ -5,13 +5,11 @@ import (
 	"github.com/graphql-go/graphql"
 )
 
-func GetReviewsByGameIdEqualsUpvotedAndLimit(p graphql.ResolveParams) (i interface{}, e error){
+func GetAllReview(p graphql.ResolveParams) (i interface{}, e error){
 
-	gameid := p.Args["gameid"].(int)
-	upvoted := p.Args["reviewupvoted"].(int)
 	limit := p.Args["limit"].(int)
 
-	reviews, err := models.GetReviewByEqualsUpvotedLimitAndGameId(gameid, upvoted, limit)
+	reviews, err := models.GetAllReview(limit)
 
 	if err!=nil{
 		panic(err)
@@ -20,13 +18,11 @@ func GetReviewsByGameIdEqualsUpvotedAndLimit(p graphql.ResolveParams) (i interfa
 	return reviews, nil
 }
 
-func GetReviewsByGameIdGreaterUpvotedAndLimit(p graphql.ResolveParams) (i interface{}, e error){
+func GetReviewById(p graphql.ResolveParams) (i interface{}, e error){
 
-	gameid := p.Args["gameid"].(int)
-	upvoted := p.Args["reviewupvoted"].(int)
-	limit := p.Args["limit"].(int)
+	id := p.Args["id"].(int)
 
-	reviews, err := models.GetReviewByGreaterUpvotedLimitAndGameId(gameid, upvoted, limit)
+	reviews, err := models.GetReviewById(id)
 
 	if err!=nil{
 		panic(err)
@@ -35,6 +31,33 @@ func GetReviewsByGameIdGreaterUpvotedAndLimit(p graphql.ResolveParams) (i interf
 	return reviews, nil
 }
 
+func GetReviewsRecently(p graphql.ResolveParams) (i interface{}, e error){
+
+	gameid := p.Args["gameid"].(int)
+	limit := p.Args["limit"].(int)
+
+	reviews, err := models.GetReviewRecently(gameid, limit)
+
+	if err!=nil{
+		panic(err)
+	}
+
+	return reviews, nil
+}
+
+func GetReviewsUpvoted(p graphql.ResolveParams) (i interface{}, e error){
+
+	gameid := p.Args["gameid"].(int)
+	limit := p.Args["limit"].(int)
+
+	reviews, err := models.GetReviewUpvoted(gameid, limit)
+
+	if err!=nil{
+		panic(err)
+	}
+
+	return reviews, nil
+}
 
 
 func UpdateReviewUpvoted(p graphql.ResolveParams) (i interface{}, e error){
@@ -64,6 +87,17 @@ func InsertReview(p graphql.ResolveParams) (i interface{}, e error){
 	gameid := p.Args["gameid"].(int)
 
 	reviews, _:= models.InsertReview(token, reviewdesc, gameid)
+
+	return reviews, nil
+}
+
+func InsertReviewCommentByReviewId(p graphql.ResolveParams) (i interface{}, e error){
+
+	token := p.Args["token"].(string)
+	comment := p.Args["comment"].(string)
+	reviewid := p.Args["reviewid"].(int)
+
+	reviews, _:= models.InsertReviewCommentByReviewId(token, reviewid, comment)
 
 	return reviews, nil
 }
